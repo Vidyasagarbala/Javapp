@@ -1,5 +1,6 @@
 package wordcount;
 import dependency.dependency;
+import Certificate_dependency.Cert;
 //import org.apache.commons.lang3.StringUtils;
 
 public class main 
@@ -7,6 +8,7 @@ public class main
 	public static void main(String[] args) 
 	{
 		dependency d = new dependency();
+		Cert c = new Cert();
 		
 		// TODO Auto-generated method stub
 		System.out.print("hello \n");
@@ -15,7 +17,7 @@ public class main
 		//StringUtils.split(words,' ')
 		System.out.println(countWords);
 		d.getdata();
-		d.getdata();
+		c.getcert();
 		//return;
 	}
 }
